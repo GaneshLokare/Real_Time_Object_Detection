@@ -1,0 +1,12 @@
+numpy
+pandas
+opencv-python==4.5.5.64
+jupyter
+labelImg
+from-root==1.0.2
+DateTime==4.4
+glob==1.0.52
+functools
+shutil
+warnings
+-e .

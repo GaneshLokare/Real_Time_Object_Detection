@@ -8,6 +8,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+Yolo_venv/
+data_images/
 build/
 develop-eggs/
 dist/
