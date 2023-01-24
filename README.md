@@ -18,17 +18,23 @@ data source: provide link
 ``` 
 pip install -r requirements.txt
 ```
-7. run main.py
-
 8. Go to model_training folder. 
 ```
 cd src\model_training
 ```
-9. Training YOLO v5 model. Run below command in the terminal.
+9. clone yolov5 model.
+```
+git clone https://github.com/ultralytics/yolov5.git
+```
+10. Run main.py
+```
+python main.py
+```
+11. Training YOLO v5 model. Run below command in the terminal.
 ```
 python train.py --data data.yaml --cfg yolov5s.yaml --batch-size 8 --name Model --epochs 50
 ```
-10. convert saved model from pytoch format to onnx format. So that we can use it with opencv.
+12. convert saved model from pytoch format to onnx format. So that we can use it with opencv.
 ```
 python export.py --weights runs/train/Model/weights/best.pt --include onnx --simplify
 ```
