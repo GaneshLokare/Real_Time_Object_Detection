@@ -11,6 +11,7 @@ __pycache__/
 Yolo_venv/
 data_images/
 yolov5/
+logs/
 build/
 develop-eggs/
 dist/

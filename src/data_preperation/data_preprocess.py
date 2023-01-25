@@ -7,8 +7,8 @@ from shutil import move
 import warnings
 warnings.filterwarnings('ignore')
 import sys
-from source.exception import ObjectDetectionException
-from source.logger import logging
+from src.exception import ObjectDetectionException
+from src.logger import logging
 
 class Data_Preprocess:
     def __init__():
@@ -19,7 +19,7 @@ class Data_Preprocess:
         try:
 
             # get path of each xml file
-            xmlfiles = glob('source/data_images/*.xml')
+            xmlfiles = glob('src/data_images/*.xml')
             # replace \\ with /
             replace_text = lambda x: x.replace('\\','/')
             xmlfiles = list(map(replace_text,xmlfiles))
@@ -87,8 +87,8 @@ class Data_Preprocess:
             test_df['id'] = test_df['name'].apply(label_encoding)
 
             # Save Image and Labels in text
-            train_folder = 'source/model_training/yolov5/src/data_images/train'
-            test_folder = 'source/model_training/yolov5/src/data_images/test'
+            train_folder = 'src/model_training/yolov5/src/data_images/train'
+            test_folder = 'src/model_training/yolov5/src/data_images/test'
 
             os.mkdir(train_folder)
             os.mkdir(test_folder)
@@ -102,7 +102,7 @@ class Data_Preprocess:
             # save each image in train/test folder and repective labels in .txt
             def save_data(filename, folder_path, group_obj):
                 # move image
-                src = os.path.join('source/data_images',filename)
+                src = os.path.join('src/data_images',filename)
                 dst = os.path.join(folder_path,filename)
                 move(src,dst) # move image to the destination folder
                 
@@ -122,6 +122,3 @@ class Data_Preprocess:
                 raise  ObjectDetectionException(e,sys)
 
 
-
-
-Data_Preprocess.preprocess()

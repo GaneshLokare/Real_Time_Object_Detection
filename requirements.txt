@@ -2,6 +2,7 @@ jupyter
 labelImg
 from-root==1.0.2
 DateTime==4.4
+streamlit
 
 # YOLOv5 requirements
 # Usage: pip install -r requirements.txt
