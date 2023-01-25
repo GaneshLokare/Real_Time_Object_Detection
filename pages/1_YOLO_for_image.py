@@ -5,7 +5,7 @@ import numpy as np
 
 st.set_page_config(page_title="YOLO Object Detection",
                    layout='wide',
-                   page_icon='./images/object.png')
+                   page_icon='./icons/object.png')
 
 st.header('Get Object Detection for any Image')
 st.write('Please Upload Image to get detections')
