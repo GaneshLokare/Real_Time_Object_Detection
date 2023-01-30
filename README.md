@@ -77,8 +77,11 @@ Note:This is a basic object detection project which can be used as a starting po
 
 ## Below are some results
 
-![img1](Real Detections\img2.jpg)
-![img2](Real Detections\img4.jpg)
-![img3](Real Detections\img6.jpg)
-![img4](Real Detections\img8.jpg)
+![img1](Real Detections/img2.jpg)
+![img2](Real Detections/img4.jpg)
+![img3](Real Detections/img6.jpg)
+![img4](Real Detections/img8.jpg)
 ![img5](img2.jpg)
+![img6](img4.jpg)
+![img7](img6.jpg)
+![img8](img8.jpg)
