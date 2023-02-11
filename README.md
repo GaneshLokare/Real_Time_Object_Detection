@@ -77,11 +77,8 @@ Note:This is a basic object detection project which can be used as a starting po
 
 ## Below are some results
 
-![img1](Real Detections/img2.jpg)
-![img2](Real Detections/img4.jpg)
-![img3](Real Detections/img6.jpg)
-![img4](Real Detections/img8.jpg)
-![img5](img2.jpg)
-![img6](img4.jpg)
-![img7](img6.jpg)
-![img8](img8.jpg)
+
+![img2](https://user-images.githubusercontent.com/90838133/218264692-50de0bbf-60f2-4829-abf0-0014b570ea35.jpg)
+![img6](https://user-images.githubusercontent.com/90838133/218265305-fc479ef9-f554-4c77-82c4-04531caa928c.jpg)
+![img8](https://user-images.githubusercontent.com/90838133/218265339-7bea13af-d9db-4ded-94df-e5160c770ad1.jpg)
+![img4](https://user-images.githubusercontent.com/90838133/218265365-6e98d2e3-5bfd-4450-b0ff-280e8f74d7b8.jpg)
